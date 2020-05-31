@@ -33,9 +33,7 @@ hr {
 	text-transform: uppercase;
 }
 
-.newcolor {
-	color: solid pink;
-}
+
 
 .btn-primary {
 	background-color: #F05F44;
@@ -54,4 +52,10 @@ hr {
 .btn-xl {
 	padding: 1rem 2rem;
 
+}
+
+
+p {
+	text-decoration-color: solid pink;
+	font-size: 3em;
 }

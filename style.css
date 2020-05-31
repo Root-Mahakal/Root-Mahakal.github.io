@@ -55,7 +55,7 @@ hr {
 }
 
 
-p {
+.newcolor {
 	text-decoration-color: solid pink;
 	font-size: 3em;
 }

@@ -11,10 +11,16 @@ html {
 }
 
 h1 {
+	color: solid pink;
+	font-family: initial;
 	font-size: 3em;
-	color: pink;
+	border-bottom: 2px solid pink;
+	border-left: 2px solid pink;
+	border-right: 2px solid pink;
+	border-top: 2px solid pink;
+	width: 400px;
+	box-shadow: 6px 6px 6px 5px #888888
 }
-
 
 hr {
 	border-color:  #F05F44;

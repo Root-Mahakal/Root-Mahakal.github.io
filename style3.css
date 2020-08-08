@@ -29,9 +29,9 @@ h2 {
 
 img {
 	width: 400px;
-	height: 290px;
-	margin: 10px;
-	transition: all 1s;
+	height: 300px;
+	margin: 12px;
+	transition: all 0.5s;
 }
 
 img:hover {

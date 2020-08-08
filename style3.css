@@ -2,11 +2,23 @@ body,
 html {
   width: 100%;
   height: 100%;
-  background: url(https://wallpaperaccess.com/full/791762.jpg) no-repeat center center fixed; 
+  background: url(https://i1.wp.com/etchworksdigital.com/wp-content/uploads/2014/04/The-best-top-desktop-hd-dark-black-wallpapers-dark-black-wallpaper-dark-background-dark-wallpaper-23.jpg?fit=1024%2C640&ssl=1) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+h2 {
+	color: solid pink;
+	font-family: initial;
+	font-size: 2em;
+	border-bottom: 2px solid pink;
+	border-left: 2px solid pink;
+	border-right: 2px solid pink;
+	border-top: 2px solid pink;
+	width: 400px;
+	box-shadow: 6px 6px 6px 5px #888888
 }
 
 .container {

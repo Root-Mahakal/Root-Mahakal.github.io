@@ -34,7 +34,7 @@ li a {
 li a:hover {
   background-color: pink;
   border-color: orange;
-  border-width: 5px;
+  border-width: 6px;
 }
 
 img{

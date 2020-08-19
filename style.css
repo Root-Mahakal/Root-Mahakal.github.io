@@ -31,7 +31,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #FF6EC7;
+  background-color: pink;
   border-color: orange;
   border-width: 5px;
 }

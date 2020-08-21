@@ -52,11 +52,15 @@ h1 {
 	color: solid pink;
 	font-family: initial;
 	font-size: 2em;
-	border-bottom: 5px solid pink;
-	border-left: 5px solid pink;
-	border-right: 5px solid pink;
-	border-top: 5px solid pink;
-	width: 1100px;
+	text-align: center;
+	width: auto;
+	background-color: #f4c2c2;
+	border-radius: 10px;
+}
+
+h1:hover{
+	box-shadow: 8px 10px 90px red;
+	background-color: #f7bfbe;
 }
 
 hr {

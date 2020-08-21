@@ -114,4 +114,12 @@ hr {
 	font-size: 2em;
 }
 
+p {
+	width: auto;
+	background-color: #FFFFF0;
+	border-radius: 12px;
+}
 
+p:hover{
+	box-shadow: 8px 10px 90px red;
+}

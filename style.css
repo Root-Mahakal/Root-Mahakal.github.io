@@ -123,7 +123,8 @@ hr {
 
 
 p {
-	width: max-content;
+	height: fit-content;
+	width: fit-content;
 	background-color: #FFFFF0;
 	border-radius: 12px;
 	font-size: 1.5em;

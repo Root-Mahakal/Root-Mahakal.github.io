@@ -117,7 +117,7 @@ hr {
 
 .distrack{
 	display: flex;
-	flex-wrap: wrap-reverse;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 

@@ -118,6 +118,7 @@ p {
 	width: auto;
 	background-color: #FFFFF0;
 	border-radius: 12px;
+	text-align: left;
 }
 
 p:hover{

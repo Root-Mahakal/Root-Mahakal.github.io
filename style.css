@@ -114,6 +114,14 @@ hr {
 	font-size: 2em;
 }
 
+
+.distrack{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
 p {
 	width: max-content;
 	background-color: #FFFFF0;
@@ -124,3 +132,4 @@ p {
 p:hover{
 	box-shadow: 8px 10px 90px red;
 }
+

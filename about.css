@@ -42,3 +42,19 @@ li a:hover {
   border-width: 8px;
   box-shadow: 5px 8px 18px pink;
 }
+
+
+h1 {
+  color: solid pink;
+  font-family: initial;
+  font-size: 2em;
+  text-align: center;
+  width: auto;
+  background-color: #f4c2c2;
+  border-radius: 10px;
+}
+
+h1:hover{
+  box-shadow: 8px 10px 90px red;
+  background-color: #f7bfbe;
+}

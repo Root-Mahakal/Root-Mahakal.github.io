@@ -15,7 +15,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #343434;
+  background-color: #696969;
   border-radius: 18px;
   margin-top: 6px;
   margin-right: 9px;
@@ -38,9 +38,10 @@ li a {
 
 li a:hover {
   background-color: #696969;
+  color: pink;
   border-color: grey;
   border-width: 8px;
-  box-shadow: 5px 8px 18px pink;
+  box-shadow: 5px 8px 18px black;
 }
 
 
@@ -49,12 +50,12 @@ h3 {
   font-family: initial;
   font-size: 2em;
   text-align: left;
-  width: auto;
-  background-color: #f4c2c2;
+  width: max-content;
+  background-color: #A9A9A9;
   border-radius: 10px;
 }
 
 h3:hover{
-  box-shadow: 8px 10px 90px red;
+  box-shadow: 5px 8px 90px red;
   background-color: #f7bfbe;
 }

@@ -8,6 +8,6 @@ function changeColor() {
 	body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
 }
 
-color1.addEventListener("input", changeColor());
+color1.addEventListener("input", changeColor);
 
-color2.addEventListener("input", changeColor());
+color2.addEventListener("input", changeColor);

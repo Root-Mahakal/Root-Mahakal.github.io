@@ -1,0 +1,139 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://cdn.wallpapersafari.com/49/20/25S1XY.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #343434;
+  border-radius: 19px;
+  margin-top: 9px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+li a:hover {
+  background-color: #343434;
+  border-color: #000000;
+  border-width: 6px;
+  box-shadow: 5px 8px 18px black;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+	color: solid pink;
+	font-family: initial;
+	font-size: 2em;
+	text-align: center;
+	width: auto;
+	background-color: #1A1110;
+	border-radius: 10px;
+}
+
+h1:hover{
+	box-shadow: 8px 10px 90px red;
+	background-color: #232B2B;
+}
+
+hr {
+	border-color:  #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 90px;
+}
+
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+
+
+.btn-primary {
+	background-color: #242124;
+	border-color: #F05F44;
+}
+
+.btn-primary:hover {
+	background-color: #232B2B;
+	border-color: #ee4b08;
+	border-width: 4px;
+}
+
+
+
+
+.btn-xl {
+	padding: 1rem 2rem;
+
+}
+
+
+.newcolor {
+	color: solid pink;
+	font-size: 3em;
+}
+
+.contact{
+	color: solid pink;
+	font-weight: 100;
+	font-family: arial;
+	font-size: 2em;
+}
+
+
+.distrack{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+p {
+	height: fit-content;
+	width: fit-content;
+	background-color: #37474F;
+	border-radius: 12px;
+	font-size: 1.5em;
+	box-shadow: 8px 10px 90px black;
+	color: 	#FF0090;
+}
+
+p:hover{
+	box-shadow: 8px 10px 90px red;
+}
+
+

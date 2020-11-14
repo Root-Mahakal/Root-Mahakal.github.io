@@ -1,1 +1,1 @@
-alert("Dark Mode Will Be Available Soon..")
+alert("Click On DARK to switch to Dark Mode!");

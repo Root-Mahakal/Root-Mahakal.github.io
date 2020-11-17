@@ -1,1 +1,28 @@
-alert("Click On DARK to switch to Dark Mode!");
+name = prompt("Whats Your Good Name?");
+
+function formatAMPM(date) {
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  var ampm = hours >= 12 ? 'pm' : 'am';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  var strTime = hours + ':' + minutes + ' ' + ampm;
+  return strTime;
+}
+
+console.log(formatAMPM(new Date));
+now_time = formatAMPM(new Date)
+
+var search_morning = now_time.search('am');
+
+if (search_morning !== -1) {
+  alert("Good morning " + name + " !!");
+} 
+
+var search_night = now_time.search('pm');
+
+if (search_night !== -1) {
+  alert("Good Evening " + name + " !!");
+}
+

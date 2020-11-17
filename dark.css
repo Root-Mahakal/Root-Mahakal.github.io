@@ -15,7 +15,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #343434;
+  background: linear-gradient(to bottom, #080007 0%, #600000 90%);
   border-radius: 19px;
   margin-top: 9px;
   margin-right: 10px;
@@ -28,7 +28,7 @@ li {
 
 li a {
   display: inline-block;
-  color: #000000;
+  color: #ff9999;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

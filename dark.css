@@ -12,14 +12,14 @@ html {
 
 ul {
   list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(to bottom, #080007 0%, #600000 90%);
+  background: #1d0002;
   border-radius: 19px;
-  margin-top: 9px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 li {
@@ -70,7 +70,7 @@ hr {
 }
 
 .buffer {
-	height: 90px;
+	height: auto;
 }
 
 
@@ -83,14 +83,14 @@ hr {
 
 
 .btn-primary {
-	background-color: #242124;
+	background-color: #030200;
 	border-color: #F05F44;
 }
 
 .btn-primary:hover {
-	background-color: #232B2B;
+	background-color: #150e06;
 	border-color: #ee4b08;
-	border-width: 4px;
+	border-width: 5px;
 }
 
 
@@ -130,10 +130,13 @@ p {
 	font-size: 1.5em;
 	box-shadow: 8px 10px 90px black;
 	color: 	#FF0090;
+	transition: transform 1.2s;
 }
 
 p:hover{
 	box-shadow: 8px 10px 90px red;
+	transform: scale(1.3);
+
 }
 
 

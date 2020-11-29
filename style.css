@@ -129,9 +129,11 @@ p {
 	border-radius: 12px;
 	font-size: 1.5em;
 	box-shadow: 8px 10px 90px black;
+	transition: transform 1.2s;
 }
 
 p:hover{
 	box-shadow: 8px 10px 90px red;
+	transform: scale(1.3);
 }
 

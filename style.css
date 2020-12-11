@@ -161,3 +161,7 @@ h2:hover {
 	-webkit-background-clip: text;
 }
 
+@keyframes h2 {
+	from {background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);}
+	to {background: linear-gradient(to right, #FF69B4, #FF3333, #05E9FF, #FF0066);}
+}

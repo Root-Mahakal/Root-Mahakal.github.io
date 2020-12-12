@@ -160,7 +160,6 @@ h2:hover {
 	transform: scale(1.3);
 }
 
-@keyframes h2 {
-	from {background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);}
-	to {background: linear-gradient(to right, #FF69B4, #FF3333, #05E9FF, #FF0066);}
+.pt img {
+	border-radius: 50%;
 }

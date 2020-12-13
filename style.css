@@ -146,6 +146,7 @@ h2 {
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	transition: transform 1.2s;
+	margin-top: 100px;
 }
 
 h2:hover {
@@ -162,6 +163,7 @@ h2:hover {
 	width: 180px;
 	height: 180px;
 	transition: transform 1.2s;
+	margin-top: 50px;
 }
 
 .earth img:hover {
@@ -174,6 +176,7 @@ h2:hover {
 	margin-left: 100px;
 }
 
-.footer {
+.footer img {
 	width: auto;
+	margin-top: 500px;
 }

@@ -137,9 +137,6 @@ p:hover{
 	transform: scale(1.3);
 }
 
-.footer {
-	width: auto;
-}
 
 h2 {
 	font-size: 80px;
@@ -175,4 +172,8 @@ h2:hover {
 	width: 500px;
 	height: 400px;
 	margin-left: 100px;
+}
+
+.footer {
+	width: auto;
 }
